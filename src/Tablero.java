@@ -14,10 +14,10 @@ public class Tablero {
         String posicion = new String();
         int filaDama;
         int columnaDama;
-        for (int fila = FILAS - 1; fila >= 0; fila --) {
+        for (int fila = FILAS - 1; fila >= 0; fila--) {
             //blanco = ! blanco;
             System.out.print(fila + 1 + " ");
-            for (int columna = 0; columna < COLUMNAS; columna ++) {
+            for (int columna = 0; columna < COLUMNAS; columna++) {
                 //if (blanco)
                 if (((fila + columna) % 2) != 0)
                     //color = 'B';
@@ -32,9 +32,9 @@ public class Tablero {
             System.out.println();
         }
         System.out.print("  ");
-        for (char letra = 'a'; letra <= 'h'; letra ++) {
+        for (char letra = 'a'; letra <= 'h'; letra++) {
             System.out.print(letra + " ");
-        }
+        }/*
         System.out.println();
         System.out.println("Dame la posición de la dama: ");
         posicion = scanner.nextLine();
@@ -54,6 +54,7 @@ public class Tablero {
             System.out.print(letra + " ");
         }
         System.out.println();
+    }*/
     }
 }
 
